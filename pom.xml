@@ -43,6 +43,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+<!--
 <distributionManagement>
     <repository>
         <id>central</id>
@@ -53,6 +54,19 @@
         <id>snapshots</id>
         <name>2d386083c71c-snapshots</name>
         <url>http://192.168.1.78:8081/artifactory/releases</url>
+    </snapshotRepository>
+</distributionManagement>
+-->
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>826a63eef9a5-releases</name>
+        <url>http://127.0.0.1:8081/artifactory/libs-release</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>826a63eef9a5-snapshots</name>
+        <url>http://127.0.0.1:8081/artifactory/libs-release</url>
     </snapshotRepository>
 </distributionManagement>
 	<build>
