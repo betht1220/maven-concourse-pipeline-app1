@@ -47,8 +47,8 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>422698b5e642-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release</url>
+        <name>82ff4e1f01e0-releases</name>
+        <url>http://127.0.0.1:8081/artifactory/libs-release</url>
     </repository>
 </distributionManagement>
 	<build>
