@@ -43,7 +43,9 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-<!-- following is copied from artifactory -->
+<!-- following is copied from artifactory 
+     BETH: DO NOT NEED THIS ELEMENT IF THIS IS RUN INSIDE CONCOURSE PIPELINE
+           ONLY NEED THIS ELEMENT IF RUNNING MANUALLY AND LOCALLY 
 <distributionManagement>
     <repository>
         <id>central</id>
@@ -51,6 +53,7 @@
         <url>http://192.168.1.161:8081/artifactory/libs-release</url>
     </repository>
 </distributionManagement>
+-->
 	<build>
 		<plugins>
 			<plugin>
